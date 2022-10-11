@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "@babel/preset-env",
+   ["@babel/preset-react", {"runtime": "automatic"}]
+  ],
+
+"plugins": [
+  "transform-class-properties" //used to transfor class properties without constructor
+]
+}

@@ -1,0 +1,15 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: $dark-blue;
+    font-family:helvetica,Arial,sans-serif;
+    font-size: $padding-size;
+}
+button{
+    cursor: pointer;
+}
+button:disabled
+{
+    cursor: default;
+}
